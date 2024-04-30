@@ -15,17 +15,18 @@
 
 header{
     position: relative;
+    width: 100%;
+    background-color: #fff;
     box-shadow: 0px 0px 1px 0px #091E424F;
     box-shadow: 0px 3px 5px 0px #091E4233;
-
 }
+
 
 .header__container{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 16px;
-    position: sticky;
 }
 
 nav select{
@@ -83,11 +84,13 @@ nav li a:hover{
 
 /* ====== section styling ====== */
 
+
 .section__container{
     width: 1440px;
     width: 100%;
     height: 540px;
     background-image: url(../images/background.image.png);
+    /* margin-top: 50px; */
 }
 
 .hero-info .info{
@@ -616,4 +619,181 @@ content: '';
         opacity: 1;
         transform: translateY(0px);
     }
+}
+
+.testimonials{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    background: var(--Background-1, rgba(233, 248, 239, 1));
+}
+
+.testimonials h2{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 66px;
+    text-align: center;
+    color: rgba(9, 30, 66, 1);
+}
+
+.testimonials p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(23, 43, 77, 1);
+    margin-bottom: 80px;
+}
+
+.testimonials-card{
+    width:384.33px;
+    height:234px;
+    padding: 24px 24px 24px 24px;
+    gap: 40px;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0px 0px 1px 0px rgba(9, 30, 66, 0.31);
+    box-shadow: 0px 3px 5px 0px rgba(9, 30, 66, 0.2);
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 100px;
+    background-color: #fff;
+}
+
+.testimonials-card p{
+    /* width: 338px; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(18, 18, 22, 1);
+    margin-bottom: 45px;
+}
+
+.customer {
+    display: flex;
+    gap: 20px;
+}
+
+.customer h3{
+    color: rgba(18, 18, 22, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.customer p{
+    color:rgba(168, 169, 178, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+
+.customer-icon{
+    margin-left: 65px;
+}
+
+.testimonials__container{
+    max-width: 1184px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel{
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer__container{
+    max-width: 1184px;
+    display: flex;
+    gap: 90px;
+    margin-bottom: 50px;
+    border-bottom:1px solid rgba(220, 223, 228, 1) ;
+    width: 1440px;
+}
+
+.logo-info{
+    width: 490px;
+}
+
+.logo-info img{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.logo-info p{
+    margin-bottom: 20px;
+}
+
+.logo-info span img{
+    margin-right: 10px;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+
+.links h3{
+    margin-bottom: 25px;
+}
+
+.links a{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(9, 30, 66, 1);
+    text-decoration: none;
+}
+
+.e-mail input{
+    border: none;
+    border: 1px solid rgba(220, 223, 228, 1);
+    padding: 16px 16px 16px 16px;
+    gap: 8px;
+    border-radius: 8px 0px 0px 8px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.e-mail h3{
+    margin-bottom: 20px;
+}
+
+.e-mail button{
+    padding: 14px 14px 14px 14px;
+    border-radius: 0px 8px 8px 0px;
+    opacity: 0px;
+    border: none;
+    cursor: pointer;
+    background:rgba(64, 87, 65, 1); 
+    
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #fff;
+}
+
+.footer-end__container{
+    max-width: 1184px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-end__container p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: rgba(9, 30, 66, 1);
+}
+
+.footer-end__container span{
+    font-size: 16px;
+    font-weight: 5gi00;
+    line-height: 21px;
+    text-align: left;
+    color: rgba(9, 30, 66, 1);
 }
